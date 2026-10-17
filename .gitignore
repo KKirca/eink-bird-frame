@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# uv
+.uv/
+
+# Çalışma çıktıları
+out/
+*.png
+!docs/**/*.png
+settings.json
+data/
+
+# Ses kayıtları (xeno-canto indirmeleri — repoya girmesin)
+audio/
+*.wav
+*.mp3
+
+# Editör
+.vscode/
+.idea/
+.DS_Store
